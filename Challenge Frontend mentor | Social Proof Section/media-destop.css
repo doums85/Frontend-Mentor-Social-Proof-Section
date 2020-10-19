@@ -1,0 +1,32 @@
+/* DESKTOP SCREEN*/
+@media only screen and (min-width: 967px) and  (max-width: 1375px) {
+    body {
+        position: absolute;
+        background-size: 584px, 1300px;
+    }
+    .flex-container{
+        margin-bottom: 20px;
+    }
+    h1 {
+        font-size: 4em;
+    }
+
+    #colton,
+    #irene,
+    #anne {
+        width: 26%;
+    }
+
+    .cards-groups img {
+        width: 50px;
+    }
+
+    .profil {
+        margin-bottom: 30px;
+    }
+
+    .cards-groups {
+        font-size: 0.9em;
+    }
+}
+

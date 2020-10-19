@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Spartan', sans-serif;
+    overflow: hidden;
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right bottom;
+    background-size: 750px, 1500px;
+}
+
+/* TEASER TEXT */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.text {
+    flex-basis: 40%;
+    margin-right: 7%;
+    margin-left: -8%;
+
+}
+
+h1 {
+    font-size: 4.5em;
+    color: hsl(300, 43%, 22%);
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 1em;
+    color: hsl(303, 10%, 53%);
+}
+
+/* GROUPS STARS */
+
+#group-star-1,
+#group-star-2,
+#group-star-3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 8px;
+    margin: 16px;
+    padding-right: 15px;
+}
+
+#group-star-2 {
+    margin-left: 48px;
+}
+
+#group-star-3 {
+    margin: 16px 16px 0 95px;
+}
+
+h5 {
+    font-size: 0.8em;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+/* CARDS GROUPS */
+.cards-groups {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+}
+
+.cards-groups img {
+    width: 60px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.profil {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-left: 15px;
+}
+
+.info-name {
+    margin-left: 15px;
+    font-size: 1em;
+}
+
+.name {
+
+    font-weight: 500;
+    color: white;
+    margin-bottom: 0;
+}
+
+.verified {
+
+    margin: 4px 0 0 0;
+    color: hsl(333, 80%, 67%);
+
+}
+
+#colton,
+#irene,
+#anne {
+    height: 234px;
+    width: 23.7%;
+    background: hsl(300, 43%, 22%);
+    border-radius: 8px;
+    margin-right: 30px;
+}
+
+#irene {
+    margin-top: 40px;
+}
+
+#anne {
+    margin: 70px 0 0 0;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 25px;
+}
+
+.review p {
+    font-size: 0.9em;
+    color: white;
+    font-style: italic;
+    line-height: 1.5em;
+
+}
+
+/* MEDIA MOBILE */
+@media (max-width: 812px) {
+    body {
+        width: 100%;
+        margin: 0 5px;
+        overflow-y: auto;
+        position: absolute;
+        background-image: url(images/bg-pattern-top-
+ desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: left top, right bottom;
+    }
+
+    .flex-container,
+    .cards-groups {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .text {
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+
+    }
+
+    h1 {
+        font-size: 3.5em;
+    }
+
+    #group-star-1,
+    #group-star-2,
+    #group-star-3 {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    #colton,
+    #irene,
+    #anne {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: 0 0 20px 0;
+    }
+
+    .profil {
+        margin-bottom: 15px;
+    }
+
+    .profil img {
+        width: 40px;
+    }
+
+    .cards-groups p {
+        font-size: 0.8em;
+    }

@@ -1,0 +1,57 @@
+/*TABLET SCREEN */
+@media only screen and (min-width: 800px) and (max-width: 966px) {
+
+    body {
+        overflow: auto;
+        position: absolute;
+        margin: 0 10px;
+    }
+
+    .flex-container,
+    .cards-groups {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .text {
+        margin: 0 0 30px 0;
+        text-align: center;
+
+    }
+
+    h1 {
+        font-size: 4em;
+        margin-bottom: 20px;
+    }
+
+    #group-star-1,
+    #group-star-2,
+    #group-star-3 {
+        margin-left: 0;
+        padding: 40px;
+    }
+
+    h5 {
+        margin-left: 10px;
+    }
+
+    #colton,
+    #irene,
+    #anne {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 0 20px 0;
+        text-align: center;
+    }
+
+    .profil {
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+}
